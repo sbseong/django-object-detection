@@ -27,8 +27,7 @@ create virtual env
 pip install -r requirements.txt
 
 # migrate
-python manage.py migrate
-(here, i had many errors cuz original git has no requirements... after i had installed celery, django-crispy-forms, django_cleanup, django-debug-toolbar, it worked)
+python manage.py migrate  # (here, i had many errors cuz original git has no requirements... after i had installed celery, django-crispy-forms, django_cleanup, django-debug-toolbar, it worked)
 
 # create super user
 python manage.py createsuperuser # (it may show an error page if no 'default.png' in media folder. See note above.)
